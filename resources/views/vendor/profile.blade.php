@@ -314,7 +314,7 @@
 
                     <div class="container">
                         <h1>Update Profile</h1>
-                        @livewire('update-vendor-profile', ['vendor' => $vendor])
+                        {{-- @livewire('update-vendor-profile', ['vendor' => Auth::guard('vendor')->user()]) --}}
                     </div>
                 </div>
             </div>
