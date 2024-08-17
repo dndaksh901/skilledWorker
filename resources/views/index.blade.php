@@ -229,6 +229,18 @@
             </div>
         </div>
     </section>
+    <!-- End Categories Section -->
+
+    <!-- Start subcription plan -->
+    <section>
+        @guest
+        <div class="container my-4">
+            <livewire:subscription-options />
+        </div>
+    @endguest
+    </section>
+    <!-- End subcription plan -->
+
 
 
     <section class="adventure-section">

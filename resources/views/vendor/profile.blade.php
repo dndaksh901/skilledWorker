@@ -311,6 +311,11 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="container">
+                        <h1>Update Profile</h1>
+                        @livewire('update-vendor-profile', ['vendor' => $vendor])
+                    </div>
                 </div>
             </div>
 
